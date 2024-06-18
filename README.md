@@ -33,5 +33,4 @@ python main.py
 ### 相关截图
 |before|after|
 |:------:|:------:|
-|![test.png](test.png)|![image](https://github.com/Samge0/segment-anything-test/assets/17336101/96853a1c-02e3-42bf-9fb6-ce9d32315857)
-|
+|![test.png](test.png)|![image](https://github.com/Samge0/segment-anything-test/assets/17336101/96853a1c-02e3-42bf-9fb6-ce9d32315857)|
