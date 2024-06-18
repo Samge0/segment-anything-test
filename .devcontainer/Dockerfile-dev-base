@@ -1,0 +1,18 @@
+# set base mirror
+FROM samge/ai-env:cuda11.8.0-cudnn8-devel-ubuntu22.04-python3.8.18-torch2.2.0 as base
+
+ARG PROXY
+ENV http_proxy=${PROXY} https_proxy=${PROXY}
+
+FROM base as requirements
+RUN pip install git+https://github.com/facebookresearch/segment-anything.git
+
+# latest version
+# RUN pip install opencv-python pycocotools matplotlib onnxruntime onnx transformers
+
+# use known version number
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
+
+# 重置代理配置
+ENV http_proxy= https_proxy=

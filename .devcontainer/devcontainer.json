@@ -1,0 +1,12 @@
+{
+	"name": "segment-anything-test",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "segment-anything-test",
+    "workspaceFolder": "/app",
+    "extensions": [
+        "ms-python.python",
+        "ms-python.debugpy",
+        "humao.rest-client",
+        "samge.vscode-samge-translate"
+    ]
+}
