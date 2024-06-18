@@ -1,5 +1,7 @@
 ## segment-anything-test
 
+[segment-anything](https://github.com/facebookresearch/segment-anything)的测试demo
+
 ### 下载模型:
 ```shell
 wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth checkpoints/sam_vit_h_4b8939.pth
