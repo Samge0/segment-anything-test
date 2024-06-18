@@ -31,3 +31,9 @@ wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth checkp
   # 30GB GPU memory
   CUDA_VISIBLE_DEVICES=0,1 swift infer --model_type glm4v-9b-chat
   ```
+
+### 相关截图
+|before|after|
+|:------:|:------:|
+|![test.png](test.png)|![image](https://github.com/Samge0/segment-anything-test/assets/17336101/96853a1c-02e3-42bf-9fb6-ce9d32315857)
+|
